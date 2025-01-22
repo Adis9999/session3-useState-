@@ -1,0 +1,55 @@
+.count{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: 900;
+}
+p{
+  font-size: 50px;
+  text-align: center;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.reset{
+  margin-top: 20px;
+  background-color: red;
+  color: yellow;
+  width: 150px;
+  height: 70px;
+  border: none;
+  border-radius: 30px;
+}
+.change{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.change button{
+  border: none;
+  padding: 20px;
+  background-color: black;
+  color: yellow;
+  border-radius:10px ;
+}
+.offOn{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offOn button{
+  border: none;
+  border-radius: 15px;
+  color: aqua;
+  background-color: brown;
+  padding: 20px;
+}
