@@ -40,13 +40,13 @@ p{
   color: yellow;
   border-radius:10px ;
 }
-.offOn{
+.off-on{
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.offOn button{
+.off-on button{
   border: none;
   border-radius: 15px;
   color: aqua;

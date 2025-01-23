@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
-const ColorChange = (props) => {
+const ColorChange = ({ color1, color2 }) => {
   const [color, setColor] = useState(null);
 
   const changeColor = () => {
-    setColor((prevColor) =>
-      prevColor === props.color1 ? props.color2 : props.color1
-    );
+    setColor((prevColor) => (prevColor === color1 ? color2 : color1));
   };
 
   return (

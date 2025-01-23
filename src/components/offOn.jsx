@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const OffOn = ({ offText, onText }) => {
   const [isOn, setIsOn] = useState(false);
@@ -8,7 +8,7 @@ const OffOn = ({ offText, onText }) => {
   };
 
   return (
-    <div className='offOn'>
+    <div className="off-on">
       <h1>{isOn ? onText : offText}</h1>
       <button onClick={offOn}>Переключить</button>
     </div>

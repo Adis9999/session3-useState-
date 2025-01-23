@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const Counter = (props) => {
-  const [state, setState] = useState(props.num);
+const Counter = ({ num }) => {
+  const [state, setState] = useState(num);
   const plus = () => {
     setState((prev) => {
       prev++;
@@ -21,12 +21,18 @@ const Counter = (props) => {
   };
   return (
     <div className="counter">
-      <div className="plusMinus">
-        <button className="count" onClick={plus}>+</button>
+      <div className="plus-minus">
+        <button className="count" onClick={plus}>
+          +
+        </button>
         <p className="num">{state}</p>
-        <button className="count" onClick={minus}>-</button>
+        <button className="count" onClick={minus}>
+          -
+        </button>
       </div>
-      <button className="reset" onClick={reset}>Reset</button>
+      <button className="reset" onClick={reset}>
+        Reset
+      </button>
     </div>
   );
 };
